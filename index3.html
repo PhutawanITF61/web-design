@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(250, 139, 75);
+            margin: 10%;
+
+        }
+
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Histosy of Education</h1>
+    <div class="vertical"></div>
+    <div class="flex-container">
+        <div class="box5" style="width: 60%;  margin-bottom: 10%;">
+            <h2 style="text-align: center;">Elementary school</h2>
+            <center>
+                <button onclick="myFunction1()" id="button1" style="width: 60%; 
+            font-size: 20px; font-family: 'Kanit', sans-serif; font-weight: bold;">โรงเรียนจินดารัตน์</button>
+            </center>
+            <div style="display: flex; background-color: rgb(115, 185, 45);">
+            <img id="show" style="width: 20%; height: 20%; border-radius: 50%; margin-left: 5%; margin-top: 2%;" 
+            hidden src="source/jindarat.jpg" alt="">
+            <div hidden id="show1" style="width : 50%; margin-left: 10%;">
+                <p>ชื่อสถาบัน : โรงเรียนจินดารัตน์</p>
+                
+                <p>ที่อยู่ : 85 หมู่ที่ 2 ซอยจินดารัตน์ พหลโยธิน ท่าศาลา เมืองลพบุรี ลพบุรี 15000</p>
+                <p>โทรศัพท์ : 036-412963</p>
+            </div>
+        
+           
+        </div>
+        
+        </div>
+        <div class="box5" style="width: 60%;  margin-top: 10%; margin-bottom: 10%;">
+            <h2 style="text-align: center;">Junior High school</h2>
+            <center><button onclick="myFunction2()" id="button2" style="width: 60%; 
+                font-size: 20px; font-family: 'Kanit', sans-serif; font-weight: bold;">โรงเรียนวินิตศึกษา</button></center>
+            <div style="display: flex; background-color: rgb(115, 185, 45);">
+                <img id="show2" style="width: 20%; height: 20%; border-radius: 50%; margin-left: 5%; margin-top: 2%;" 
+                hidden src="source/winit.jpg" alt="">
+                <div hidden id="show3" style="width : 50%; margin-left: 10%;">
+                    <p>ชื่อสถาบัน : วินิตศึกษา ในพระราชูปถัมภ์ฯ</p>
+                    
+                    <p>ที่อยู่ : 10, ถนน เพทราชา อำเภอเมืองลพบุรี ลพบุรี 15000</p>
+                    <p>โทรศัพท์ : 036-411235</p>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+    <div class="flex-container">
+
+        <div class="box5" style="width: 60%;  margin-bottom: 10%;">
+            <h2 style="text-align: center;">Senior High school</h2>
+            <center><button onclick="myFunction3()" id="button2" style="width: 60%; 
+                font-size: 20px; font-family: 'Kanit', sans-serif; font-weight: bold;">โรงเรียนเตรียมอุดมศึกษาน้อมเกล้า</button></center>
+            <div style="display: flex; background-color: rgb(115, 185, 45);">
+                <img id="show4" style="width: 20%; height: 20%; border-radius: 50%; margin-left: 5%; margin-top: 2%;" 
+                hidden src="source/tun.png" alt="">
+                <div hidden id="show5" style="width : 50%; margin-left: 10%;">
+                    <p>ชื่อสถาบัน : เตรียมอุดมศึกษาน้อมเกล้า</p>
+                    
+                    <p>ที่อยู่ : 78 ถนน รามคำแหง แขวง ราษฎร์พัฒนา เขตสะพานสูง กรุงเทพมหานคร 10240</p>
+                    <p>โทรศัพท์ : 02-373-1473</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box5" style="width: 60%;  margin-top: 10%;">
+            <h2 style="text-align: center;">University</h2>
+            <center><button onclick="myFunction4()" id="button2" style="width: 60%; 
+                font-size: 20px; font-family: 'Kanit', sans-serif; font-weight: bold;">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</button></center>
+            <div style="display: flex; background-color: rgb(115, 185, 45);">
+                <img id="show6" style="width: 20%; height: 20%; border-radius: 50%; margin-left: 5%; margin-top: 2%;" 
+                hidden src="source/kmitl.png" alt="">
+                <div hidden id="show7" style="width : 50%; margin-left: 10%;">
+                    <p>ชื่อสถาบัน : สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+                    
+                    <p>ที่อยู่ : 1 ซอย ฉลองกรุง 1 แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520</p>
+                    <p>โทรศัพท์ : 02 329 8000</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+	<script>
+    function myFunction1() {
+        document.getElementById("button1")
+        document.addEventListener("click", function() {
+        document.getElementById("show").hidden = false;
+        document.getElementById("show1").hidden = false;
+  
+    }, false);
+}
+
+    function myFunction2() {
+            document.getElementById("button2")
+            document.addEventListener("click", function() {
+            document.getElementById("show2").hidden = false;
+            document.getElementById("show3").hidden = false;
+        
+        }, false);
+    }
+
+    function myFunction3() {
+            document.getElementById("button2")
+            document.addEventListener("click", function() {
+            document.getElementById("show4").hidden = false;
+            document.getElementById("show5").hidden = false;
+        
+        }, false);
+    }
+    function myFunction4() {
+            document.getElementById("button2")
+            document.addEventListener("click", function() {
+            document.getElementById("show6").hidden = false;
+            document.getElementById("show7").hidden = false;
+        
+        }, false);
+    }
+    </script>
+    
+    <div class="dot-nav">
+        <a href="index.html" class="">
+            <span>1</span>
+        <div style="background-image:url(http://www.thecarlossanchez.com/Missy/portfolio/portrait/thumb/1.jpg);"></div>
+        </a>
+        <a href="index2.html" class="">
+            <span>2</span>
+            <div style="background-image:url(http://www.thecarlossanchez.com/Missy/portfolio/portrait/thumb/2.jpg);"></div>
+        </a>
+        <a href="index3.html" class="">
+            <span>3</span>
+            <div style="background-image:url(http://www.thecarlossanchez.com/Missy/portfolio/portrait/thumb/3.jpg);"></div>
+        </a>
+        <a href="index4.html" class="">
+            <span>4</span>
+            <div style="background-image:url(http://www.thecarlossanchez.com/Missy/portfolio/portrait/thumb/4.jpg);"></div>
+        </a>
+        <a href="index5.html" class="">
+            <span>5</span>
+            <div style="background-image:url(http://www.thecarlossanchez.com/Missy/portfolio/portrait/thumb/5.jpg);"></div>
+        </a>
+        
+    </div>
+</body>
+</html>
